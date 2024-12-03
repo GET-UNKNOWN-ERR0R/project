@@ -4,8 +4,8 @@ const userInput = document.getElementById("user-input");
 const sendBtn = document.getElementById("send-btn");
 
 // API details
-const apiKey = "AIzaSyBSwh16Hb2210Ut665p0-sCuLGMl6pY7zg"; // Your API key
-const searchEngineId = "54e91dc78f23d4494"; // Your Search Engine ID
+const apiKey = "AIzaSyBSwh16Hb2210Ut665p0-sCuLGMl6pY7zg"; 
+const searchEngineId = "54e91dc78f23d4494";
 
 //  fetch Google results
 async function fetchResults(query) {
